@@ -4,6 +4,14 @@ Creatorverse is a small React app for keeping track of content creators worth fo
 
 The data is stored in Supabase, so the app does not rely on hardcoded creator rows.
 
+## Demo
+
+**Live site:** [https://karuifeather.github.io/creatorverse/](https://karuifeather.github.io/creatorverse/)
+
+**Demo video (MP4):** [https://karuifeather.github.io/creatorverse/demo.mp4](https://karuifeather.github.io/creatorverse/demo.mp4)
+
+<video src="https://karuifeather.github.io/creatorverse/demo.mp4" controls playsinline width="100%"></video>
+
 ## Built With
 
 - React
