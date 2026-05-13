@@ -30,9 +30,10 @@ jobs:
           npm ci
           npm run build
         env:
-          # Project site URL is https://<user>.github.io/<repo>/
+          # https://karuifeather.github.io/creatorverse/
           VITE_BASE: /${{ github.event.repository.name }}/
-          # Set before demo: Settings → Secrets and variables → Actions
+
+          # Supabase environment variables
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
           VITE_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.VITE_SUPABASE_PUBLISHABLE_KEY }}
 
